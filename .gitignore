@@ -1,0 +1,54 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Temporary Folders
+*.vs
+x64
+*.user
+Code/MIP/Run/Results*
+Code/MIP/VS2019/*.csv
+Code/MIP/VS2019/*.txt
+
+# Optimization files
+*.log
+*.lp
+*.mps
+*.prm
+*.pre
+/Code/MIP/VS2019/MIP.sol
+/Code/MIP/VS2019/conflict.clp
+/Code/MIP/Dual.xlsx
+*.sol
+/Code/MIP/Run/__pycache__
+/Code/MIP/Run/single_objective.xlsx
+/Code/MIP/Run/multi_objective.xlsx
